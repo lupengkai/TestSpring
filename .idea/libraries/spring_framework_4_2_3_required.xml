@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="spring-framework-4.2.3-required">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/com.springsource.org.aopalliance-1.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/commons-logging-1.2.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-aop-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-aspects-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-beans-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-context-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-context-support-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-core-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-expression-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-instrument-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-instrument-tomcat-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-jdbc-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-jms-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-messaging-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-orm-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-oxm-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-test-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-tx-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-web-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-webmvc-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-webmvc-portlet-4.2.3.RELEASE.jar!/" />
+      <root url="jar://$USER_HOME$/spring-framework-4.2.3.RELEASE/required/spring-websocket-4.2.3.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
