@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/0300_IOC_Injection_Type/0300_IOC_Injection_Type.iml" filepath="$PROJECT_DIR$/0300_IOC_Injection_Type/0300_IOC_Injection_Type.iml" />
       <module fileurl="file://$PROJECT_DIR$/0400_IOC_Id_Name/0400_IOC_Id_Name.iml" filepath="$PROJECT_DIR$/0400_IOC_Id_Name/0400_IOC_Id_Name.iml" />
       <module fileurl="file://$PROJECT_DIR$/0500_IOC_SimpleProperty/0500_IOC_SimpleProperty.iml" filepath="$PROJECT_DIR$/0500_IOC_SimpleProperty/0500_IOC_SimpleProperty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0600_IOC_Bean_Scope/0600_IOC_Bean_Scope.iml" filepath="$PROJECT_DIR$/0600_IOC_Bean_Scope/0600_IOC_Bean_Scope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/I0700_IOC_Collections/I0700_IOC_Collections.iml" filepath="$PROJECT_DIR$/I0700_IOC_Collections/I0700_IOC_Collections.iml" />
     </modules>
   </component>
 </project>
