@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/0100_AbstractOrientedProgramming/0100_AbstractOrientedProgramming.iml" filepath="$PROJECT_DIR$/0100_AbstractOrientedProgramming/0100_AbstractOrientedProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/0200_IOC_Introduction/0200_IOC_Introduction.iml" filepath="$PROJECT_DIR$/0200_IOC_Introduction/0200_IOC_Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0300_IOC_Injection_Type/0300_IOC_Injection_Type.iml" filepath="$PROJECT_DIR$/0300_IOC_Injection_Type/0300_IOC_Injection_Type.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0400_IOC_Id_Name/0400_IOC_Id_Name.iml" filepath="$PROJECT_DIR$/0400_IOC_Id_Name/0400_IOC_Id_Name.iml" />
+      <module fileurl="file://$PROJECT_DIR$/0500_IOC_SimpleProperty/0500_IOC_SimpleProperty.iml" filepath="$PROJECT_DIR$/0500_IOC_SimpleProperty/0500_IOC_SimpleProperty.iml" />
     </modules>
   </component>
 </project>
