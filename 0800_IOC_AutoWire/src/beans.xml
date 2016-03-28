@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <beans>
+        <bean name="userDAO" class="com.tage.dao.impl.UserDAOImpl">
+            <property name="id" value="1"/>
+        </bean>
+        <bean name="userDAO2" class="com.tage.dao.impl.UserDAOImpl"/>
+
+
+        <bean id="userService" class="com.tage.service.UserService" scope="prototype" autowire="byName"> <!--byType-->  <!--默认scope="singleton"-->
+            <!--<property name="userDAO" ref="u"/>-->
+            <!--<property name="userDAO" ref="userDAO"/>-->
+        </bean>
+
+
+
+    </beans>
+</beans>
+
