@@ -11,9 +11,13 @@
       <module fileurl="file://$PROJECT_DIR$/0700_IOC_Collections/0700_IOC_Collections.iml" filepath="$PROJECT_DIR$/0700_IOC_Collections/0700_IOC_Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/0800_IOC_AutoWire/0800_IOC_AutoWire.iml" filepath="$PROJECT_DIR$/0800_IOC_AutoWire/0800_IOC_AutoWire.iml" />
       <module fileurl="file://$PROJECT_DIR$/0900_IOC_Life_Cycle/0900_IOC_Life_Cycle.iml" filepath="$PROJECT_DIR$/0900_IOC_Life_Cycle/0900_IOC_Life_Cycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1000_IOC_Annotation_AutoWired_Qualifier/1000_IOC_Annotation_AutoWired_Qualifier.iml" filepath="$PROJECT_DIR$/1000_IOC_Annotation_AutoWired_Qualifier/1000_IOC_Annotation_AutoWired_Qualifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/1000_IOC_Annotation_AutoWired_Qualifier/1000_IOC_Annotation_AutoWired_Qulifier.iml" filepath="$PROJECT_DIR$/1000_IOC_Annotation_AutoWired_Qualifier/1000_IOC_Annotation_AutoWired_Qulifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/1100_IOC_Annotation_Resource/1100_IOC_Annotation_Resource.iml" filepath="$PROJECT_DIR$/1100_IOC_Annotation_Resource/1100_IOC_Annotation_Resource.iml" />
       <module fileurl="file://$PROJECT_DIR$/1200_IOC_Annotation_Component/1200_IOC_Annotation_Component.iml" filepath="$PROJECT_DIR$/1200_IOC_Annotation_Component/1200_IOC_Annotation_Component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1300_IOC_Pre_Post_Scope/1300_IOC_Pre_Post_Scope.iml" filepath="$PROJECT_DIR$/1300_IOC_Pre_Post_Scope/1300_IOC_Pre_Post_Scope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1400_AOP_Introduction/1400_AOP_Introduction.iml" filepath="$PROJECT_DIR$/1400_AOP_Introduction/1400_AOP_Introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1500_AOP_Annotation/1500_AOP_Annotation.iml" filepath="$PROJECT_DIR$/1500_AOP_Annotation/1500_AOP_Annotation.iml" />
     </modules>
   </component>
 </project>
