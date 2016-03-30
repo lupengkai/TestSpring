@@ -28,13 +28,14 @@ public class UserServiceTest {
 
     @Test
     public void testAdd() throws Exception {
-        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("beans.xml");//ApplicationContext 实现 BeanFactory接口
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");//ApplicationContext 实现 BeanFactory接口
 
 
-        UserService service = (UserService) classPathXmlApplicationContext.getBean("userService");
-        System.out.println(service.getClass());
-        service.add(new User());
+        UserService service = (UserService) applicationContext.getBean("userService");
 
 
+        User u = new User();
+        service.add(u);
+        System.out.println(service.getUserDAO());
     }
-} 
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+
+       xmlns="http://www.springframework.org/schema/beans"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <context:annotation-config/>
+    <context:component-scan base-package="com.tage"/>
+    <aop:aspectj-autoproxy/>
+
+
+    <bean id="logInterceptor" class="com.tage.aop.LogInterceptor"></bean>
+
+    <aop:config>
+        <aop:pointcut id="servidePointcut" expression="execution(public * com.tage.service..*.add(..))"/><!--全局-->
+
+        <aop:aspect id="logAspect" ref="logInterceptor">
+            <!--<aop:pointcut id="" expression=""/>-->
+            <!-- <aop:before method="before" pointcut-ref="servidePointcut"/>-->
+            <aop:before method="before" pointcut="execution(public * com.tage.service..*.add(..))"/>
+        </aop:aspect>
+
+    </aop:config>
+</beans>
