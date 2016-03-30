@@ -20,6 +20,8 @@
       <module fileurl="file://$PROJECT_DIR$/1500_AOP_Annotation/1500_AOP_Annotation.iml" filepath="$PROJECT_DIR$/1500_AOP_Annotation/1500_AOP_Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/1600_AOP_XML/1600_AOP_XML.iml" filepath="$PROJECT_DIR$/1600_AOP_XML/1600_AOP_XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/1700_Spring_DataSource/1700_Spring_DataSource.iml" filepath="$PROJECT_DIR$/1700_Spring_DataSource/1700_Spring_DataSource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1800_Spring_Hibernate_Transaction/1800_Spring_Hibernate_Transaction.iml" filepath="$PROJECT_DIR$/1800_Spring_Hibernate_Transaction/1800_Spring_Hibernate_Transaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1900_Spring_Hibernate_Transaction_XML/1900_Spring_Hibernate_Transaction_XML.iml" filepath="$PROJECT_DIR$/1900_Spring_Hibernate_Transaction_XML/1900_Spring_Hibernate_Transaction_XML.iml" />
     </modules>
   </component>
 </project>

@@ -33,10 +33,10 @@ public class UserDAOImpl implements UserDAO {
 
     @Override
     public void save(User user) {
-        Session session = sessionFactory.openSession();
-        session.beginTransaction();
+        Session session = sessionFactory.getCurrentSession();
+
         session.save(user);
-        session.getTransaction().commit();
+
     }
 
 
