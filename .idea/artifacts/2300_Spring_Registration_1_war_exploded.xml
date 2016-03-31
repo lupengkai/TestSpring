@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="2300_Spring_Registration_1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/2300_Spring_Registration_1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="2300_Spring_Registration_1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="2300_Spring_Registration_1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/mysql-connector-java-5.1.34/mysql-connector-java-5.1.34-bin.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

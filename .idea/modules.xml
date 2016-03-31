@@ -23,6 +23,11 @@
       <module fileurl="file://$PROJECT_DIR$/1800_Spring_Hibernate_Transaction/1800_Spring_Hibernate_Transaction.iml" filepath="$PROJECT_DIR$/1800_Spring_Hibernate_Transaction/1800_Spring_Hibernate_Transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/1900_Spring_Hibernate_Transaction_XML/1900_Spring_Hibernate_Transaction_XML.iml" filepath="$PROJECT_DIR$/1900_Spring_Hibernate_Transaction_XML/1900_Spring_Hibernate_Transaction_XML.iml" />
       <module fileurl="file://$PROJECT_DIR$/2000_Spring_Hibernate_HibernateTemplate/2000_Spring_Hibernate_HibernateTemplate.iml" filepath="$PROJECT_DIR$/2000_Spring_Hibernate_HibernateTemplate/2000_Spring_Hibernate_HibernateTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2100_Spring_Hibernate_HibernateDaoSupport/2100_Spring_Hibernate_HibernateDaoSupport.iml" filepath="$PROJECT_DIR$/2100_Spring_Hibernate_HibernateDaoSupport/2100_Spring_Hibernate_HibernateDaoSupport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2200_Spring_Hibernate_HibernateDaoSupport2/2200_Spring_Hibernate_HibernateDaoSupport2.iml" filepath="$PROJECT_DIR$/2200_Spring_Hibernate_HibernateDaoSupport2/2200_Spring_Hibernate_HibernateDaoSupport2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2300_Spring_Registration_1/2300_Spring_Registration_1.iml" filepath="$PROJECT_DIR$/2300_Spring_Registration_1/2300_Spring_Registration_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2400_Spring_Registration_2/2400_Spring_Registration_2.iml" filepath="$PROJECT_DIR$/2400_Spring_Registration_2/2400_Spring_Registration_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2500_Spring_Registration_3/2500_Spring_Registration_3.iml" filepath="$PROJECT_DIR$/2500_Spring_Registration_3/2500_Spring_Registration_3.iml" />
     </modules>
   </component>
 </project>
