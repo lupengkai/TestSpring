@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/1700_Spring_DataSource/1700_Spring_DataSource.iml" filepath="$PROJECT_DIR$/1700_Spring_DataSource/1700_Spring_DataSource.iml" />
       <module fileurl="file://$PROJECT_DIR$/1800_Spring_Hibernate_Transaction/1800_Spring_Hibernate_Transaction.iml" filepath="$PROJECT_DIR$/1800_Spring_Hibernate_Transaction/1800_Spring_Hibernate_Transaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/1900_Spring_Hibernate_Transaction_XML/1900_Spring_Hibernate_Transaction_XML.iml" filepath="$PROJECT_DIR$/1900_Spring_Hibernate_Transaction_XML/1900_Spring_Hibernate_Transaction_XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2000_Spring_Hibernate_HibernateTemplate/2000_Spring_Hibernate_HibernateTemplate.iml" filepath="$PROJECT_DIR$/2000_Spring_Hibernate_HibernateTemplate/2000_Spring_Hibernate_HibernateTemplate.iml" />
     </modules>
   </component>
 </project>

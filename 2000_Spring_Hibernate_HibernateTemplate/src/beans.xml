@@ -45,7 +45,6 @@ http://www.springframework.org/schema/aop/spring-aop.xsd">
 
 
     <bean name="userDAO" class="com.tage.dao.impl.UserDAOImpl">
-        <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
     <bean name="userService" class="com.tage.service.UserService">
@@ -92,6 +91,10 @@ http://www.springframework.org/schema/aop/spring-aop.xsd">
         <aop:pointcut id="businessService" expression="execution(public * com.tage.service..*.*(..))"></aop:pointcut>
         <aop:advisor pointcut-ref="businessService" advice-ref="txAdvice"/>
     </aop:config>
+
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
 
 
 </beans>
