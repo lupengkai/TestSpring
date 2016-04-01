@@ -44,7 +44,7 @@
         <!--指定映射文件为“hibernate/ch1/UserInfo.hbm.xml”-->
         <!-- <mapping resource="com/hibernate/model/StuIdCard.hbm.xml"/>
          <mapping class="com.hibernate.model.Teacher"/>-->
-        <mapping class="com.tage.com.tage.registration.model.User"/>
+        <mapping class="com.tage.registration.model.User"/>
 
 
     </session-factory>

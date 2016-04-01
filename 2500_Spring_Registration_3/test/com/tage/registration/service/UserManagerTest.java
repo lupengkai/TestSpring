@@ -36,6 +36,17 @@ public class UserManagerTest {
 
     @Test
     public void testAdd() throws Exception {
-
+        UserManager userManager = new UserManager();
+        User user = new User();
+        user.setUsername("b");
+        user.setPassword("b");
+        boolean exists = userManager.exists(user);
+        if (!exists) {
+            userManager.add(user);
+            ;
+            Assert.assertEquals(true, userManager.exists(user));
+        } else {
+            Assert.fail("not add");
+        }
     }
 }

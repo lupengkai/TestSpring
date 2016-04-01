@@ -10,24 +10,24 @@
 <%@ page import="java.sql.DriverManager" %>
 <%@ page import="java.sql.PreparedStatement" %>
 <%@ page import="java.sql.ResultSet" %>
-<%@ page import="com.tage.com.tage.registration.model.User" %>
-<%@ page import="com.tage.com.tage.registration.service.UserManager" %>
+<%@ page import="com.tage.registration.model.User" %>
+<%@ page import="com.tage.registration.service.UserManager" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
-    String userName = request.getParameter("username");
+    String username = request.getParameter("username");
     String password = request.getParameter("password");
     String password2 = request.getParameter("password2");
 
     User user = new User();
-    user.setUserName(userName);
+    user.setUsername(username);
     user.setPassword(password);
 
     UserManager userManager = new UserManager();
     boolean exist = userManager.exists(user);
 
     if (exist) {
-        response.sendRedirect("registerFail.jsp");
+        response.sendRedirect("");
         return;
     } else {
         userManager.add(user);

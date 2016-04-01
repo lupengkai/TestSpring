@@ -6,35 +6,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page language="java" import="java.util.*" pageEncoding="GBK" %>
-<%@ page import="java.sql.Connection" %>
-<%@ page import="java.sql.DriverManager" %>
-<%@ page import="java.sql.PreparedStatement" %>
-<%@ page import="java.sql.ResultSet" %>
-<%@ page import="com.tage.com.tage.registration.model.User" %>
-<%@ page import="com.tage.com.tage.registration.service.UserManager" %>
 <%
     String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
-    String userName = request.getParameter("username");
-    String password = request.getParameter("password");
-    String password2 = request.getParameter("password2");
-
-    User user = new User();
-    user.setUserName(userName);
-    user.setPassword(password);
-
-    UserManager userManager = new UserManager();
-    boolean exist = userManager.exists(user);
-
-    if (exist) {
-        response.sendRedirect("registerFail.jsp");
-        return;
-    } else {
-        userManager.add(user);
-        response.sendRedirect("registerSuccess.jsp");
-    }
-
-
 %>
 
 <!DOCTYPE HTML>
@@ -56,6 +30,6 @@
 </head>
 
 <body>
-
+Fail
 </body>
 </html>
