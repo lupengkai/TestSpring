@@ -24,8 +24,17 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 8.0.24" level="application_server_libraries" />
-    <orderEntry type="library" exported="" name="SSH" level="project" />
-    <orderEntry type="module-library" exported="" scope="TEST">
+    <orderEntry type="library" exported="" scope="PROVIDED" name="SSH" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/struts2-spring-plugin-2.3.24.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
       <library name="JUnit4">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/lib/junit-4.12.jar!/" />

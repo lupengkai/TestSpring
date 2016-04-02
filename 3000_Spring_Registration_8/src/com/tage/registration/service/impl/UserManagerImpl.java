@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
  * Created by tage on 4/1/16.
  */
 public class UserManagerImpl implements UserManager {
-    private UserDao userDao = new UserDaoImpl();
+    private UserDao userDao;
 
     public UserDao getUserDao() {
         return userDao;

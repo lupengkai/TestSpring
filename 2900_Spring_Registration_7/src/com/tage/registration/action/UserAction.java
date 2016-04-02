@@ -5,16 +5,22 @@ import com.tage.registration.model.User;
 import com.tage.registration.service.UserManager;
 import com.tage.registration.service.impl.UserManagerImpl;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Scope;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.stereotype.Component;
+
+import javax.annotation.Resource;
 
 /**
  * Created by tage on 4/1/16.
  */
+@Component("user")//bean 对象 对应 package 里的action初始化
+@Scope(value = "prototype")
 public class UserAction extends ActionSupport {
 
     private UserManager userManager;
     private String username;
-    private String passeword;
+    private String password;
     private String password2;
 
     public UserAction() {
@@ -32,11 +38,11 @@ public class UserAction extends ActionSupport {
     }
 
     public String getPasseword() {
-        return passeword;
+        return password;
     }
 
     public void setPasseword(String passeword) {
-        this.passeword = passeword;
+        this.password = passeword;
     }
 
     public String getPassword2() {
@@ -51,6 +57,7 @@ public class UserAction extends ActionSupport {
         return userManager;
     }
 
+    @Resource
     public void setUserManager(UserManager userManager) {
         this.userManager = userManager;
     }
@@ -59,7 +66,7 @@ public class UserAction extends ActionSupport {
     public String execute() throws Exception {
         User user = new User();
         user.setUsername(username);
-        user.setPassword(passeword);
+        user.setPassword(password);
         if (userManager.exists(user)) {
             return "fail";
         } else {
